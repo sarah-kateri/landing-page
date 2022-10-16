@@ -84,6 +84,10 @@ button {
     margin: 100px 0;
 }
 
+.two {
+    margin: 0px 200px 80px;
+}
+
 h2 {
     color: #1F2937;
     font-size: 36px;
@@ -95,7 +99,6 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 16px;
-    margin: 0 120px;
 }
 
 .info {
@@ -108,11 +111,37 @@ h2 {
 .photo {
     background-color: #3882F6;
     border-radius: 16px;
-    max-width: 200px;
+    width: 150px;
 }
 
 .text {
     color: #303a49;
     font-size: 18px;
     text-align: center;
+}
+
+.three {
+    background-color: #E5E7EB;
+}
+
+.container-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 200px;
+}
+
+.quote {
+    color: #1F2937;
+    font-weight: light;
+    font-style: italic;
+    font-size: 36px;
+    margin: 0;
+}
+
+.attribution {
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 24px;
+    align-self: flex-end;
 }
