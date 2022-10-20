@@ -21,9 +21,10 @@ header {
 }
 
 .logo {
-    color: #F9FAF8;
-    font-size: 24px;
-    font-weight: bold;
+    width: 60px;
+    height: auto;
+    border-radius: 4px;
+    margin: 8px;
 }
 
 ul {
@@ -79,7 +80,7 @@ h4 {
 .intro {
     width: auto;
     height: 265px;
-    border-radius: 8px;
+    border-radius: 12px;
 }
 
 .two {
