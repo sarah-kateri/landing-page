@@ -1,5 +1,6 @@
 * {
     font-family: sans-serif;
+    
 }
 
 body {
@@ -37,7 +38,7 @@ a {
     color: #E5E7EB;
     font-size: 18px;
     text-decoration: none;
-    margin-left: 8px;
+    margin-left: 32px;
 }
 
 .container-one {
@@ -79,7 +80,7 @@ h4 {
 
 .intro {
     width: auto;
-    height: 265px;
+    height: 200px;
     border-radius: 12px;
 }
 
@@ -97,7 +98,7 @@ h2 {
 .container-two {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 12px;
 }
 
 .info {
@@ -105,19 +106,20 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 4px;
 }
 
 .photo {
     background-color: #3882F6;
     border-radius: 16px;
-    width: 150px;
+    width: 170px;
     padding: 4px;
-    margin: 8px;
+    margin-bottom: 8px;
 }
 
 .text {
     color: #303a49;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
 }
 
@@ -154,9 +156,9 @@ h2 {
 }
 
 .bar {
+    flex: 1;
     color: #F9FAF8;
     background-color: #3882F6;
-    width: 1200px;
     height: 140px;
     border-radius: 16px;
     display: flex;
