@@ -78,7 +78,8 @@ h4 {
 
 .intro {
     width: auto;
-    height: 300px;
+    height: 265px;
+    border-radius: 8px;
 }
 
 .two {
@@ -109,6 +110,8 @@ h2 {
     background-color: #3882F6;
     border-radius: 16px;
     width: 150px;
+    padding: 4px;
+    margin: 8px;
 }
 
 .text {
@@ -144,7 +147,7 @@ h2 {
 }
 
 .four {
-    margin: 80px 120px;
+    margin: 120px 120px;
     display: flex;
     justify-content: center;
 }
@@ -153,7 +156,7 @@ h2 {
     color: #F9FAF8;
     background-color: #3882F6;
     width: 1200px;
-    height: 180px;
+    height: 140px;
     border-radius: 16px;
     display: flex;
     justify-content: space-evenly;
