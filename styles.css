@@ -1,6 +1,5 @@
 * {
-    font-family: sans-serif;
-    
+    font-family: Arial, sans-serif; 
 }
 
 body {
@@ -9,7 +8,7 @@ body {
 }
 .one {
     flex: 1;
-    background-color: #1F2937;
+    background-color: #1d1d1d;
     display: flex;
     flex-direction: column;
 }
@@ -56,7 +55,7 @@ main {
 }
 
 h1 {
-    color: #F9FAF8;
+    color: tan;
     font-size: 48px;
     font-weight: extra-bold;
     margin: 0;
@@ -70,10 +69,10 @@ h4 {
 
 .button-one {
     color: #F9FAF8;
-    background-color: #3882F6;
+    background-color: darkgoldenrod;
     font-size: 18px;
     font-weight: bold; 
-    border-color: #3882F6;
+    border-color: darkgoldenrod;
     border-radius: 8px;
     padding: 8px 32px;
 }
@@ -85,7 +84,8 @@ h4 {
 }
 
 .two {
-    margin: 0px 200px 80px;
+    background-color: ivory;
+    padding: 24px 200px 80px;
 }
 
 h2 {
@@ -110,11 +110,11 @@ h2 {
 }
 
 .photo {
-    background-color: #3882F6;
-    border-radius: 16px;
+    background-color: goldenrod;
+    border-radius: 18px;
     width: 170px;
     padding: 4px;
-    margin-bottom: 8px;
+    margin: 8px 0;
 }
 
 .text {
@@ -124,7 +124,7 @@ h2 {
 }
 
 .three {
-    background-color: #E5E7EB;
+    background-color: #e4d9d3;
 }
 
 .container-three {
@@ -150,7 +150,8 @@ h2 {
 }
 
 .four {
-    margin: 120px 120px;
+    background-color: ivory;
+    padding: 120px 120px;
     display: flex;
     justify-content: center;
 }
@@ -158,11 +159,12 @@ h2 {
 .bar {
     flex: 1;
     color: #F9FAF8;
-    background-color: #3882F6;
+    background-color: darkgoldenrod;
     height: 140px;
+    padding: 0 80px;
     border-radius: 16px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -184,7 +186,7 @@ h2 {
 
 .button-four {
     color: #F9FAF8;
-    background-color: #3882F6;
+    background-color: darkgoldenrod;
     font-size: 18px;
     font-weight: bold;
     padding: 8px 32px;
@@ -193,8 +195,8 @@ h2 {
 }
 
 footer {
-    color: #F9FAF8;
-    background-color: #1F2937;
+    color: ivory;
+    background-color: #1d1d1d;
     text-align: center;
     padding: 32px;
 }
